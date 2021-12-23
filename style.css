@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 300px 700px;
+    margin: 0 auto;
+    min-height: 1000px;
+    width: 90%;
+}
+
+.left-section {
+    border: 1px solid black;
+    background-color: #6998AB;
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile-image {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}
+
+ul.social-media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+ul.email-contact {
+    list-style-type: none;
+}
+
+.skill-title {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10%;
+}
+
+.progress-bar {
+    text-align: right;
+    height: 4px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.html {
+    width: 90%;
+    background-color: DarkOrange;
+}
+
+.css {
+    width: 80%;
+    background-color: DodgerBlue;
+}
+
+.js {
+    width: 65%;
+    background-color: Yellow;
+}
+
+.right-section {
+    border: 1px solid black;
+    background-color: #B1D0E0;
+}
+
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.sub-title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.padded {
+    padding-top: 1.5rem;
+}
+
+.divider {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.content {
+    padding-top: 5px;
+}
+
+.college {
+    /* align-self: flex-start; */
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width:674px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto;
+        margin: 0 auto;
+        /* min-height: 1000px; */
+        width: 100%;
+    }
+}
